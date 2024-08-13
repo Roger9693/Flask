@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(219, 211, 211);
+}
+form{
+    font-style: italic;
+}
+table{
+    background-color: bisque;
+    color: blueviolet;
+    font-style: italic;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,24 @@
+<p>
+    <h3>Hi</h3>
+    <br>
+    <h1>Jinja</h1>
+    The author of Flask is {{author}}
+    <br>
+    <h1>Jinja condition</h1>
+    {% if Arminronacher %}
+    <p>
+        Yes! {{author}} is flask author
+    </p>
+    {%else%}
+    <p>
+        No, he is not
+    </p>
+    {%endif%}
+    <h1>Jinja loop</h1>
+    {%for i in Post%}
+    <p>
+        <h2>{{i.Language}}</h2>
+        <h3>Author:{{i.Author}}</h3>
+    </p>
+    {%endfor%}
+</p>

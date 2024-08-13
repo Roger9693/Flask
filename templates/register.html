@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='frm.css')}}">
+</head>
+<body>
+    <h1 align="center">Login Form</h1>
+    <form action="{{url_for('sub1')}}" target="_top" method="post">
+        <center>
+            <label for="email">email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="add">address:</label>
+            <input type="text" id="add" name="address"><br><br>
+            <input type="submit" value="Submit">
+        </center>
+    </form>
+</body>
+</html>
